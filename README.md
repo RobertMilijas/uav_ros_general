@@ -102,5 +102,5 @@ Depending on the UAV sensor suite additional ROS driver packages may need to be 
 
 The following SLAM software may need to be installed when using this package:
 
-* [cartographer](https://github.com/larics/cartographer) & [cartographer_ros](https://github.com/larics/cartographer_ros) - Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
-* [A-LOAM](https://github.com/larics/A-LOAM) - Advanced LiDAR Odometry And Mapping
+* [cartographer](https://github.com/larics/cartographer) & [cartographer_ros](https://github.com/larics/cartographer_ros) - Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations. Please use these packages on branch `erl`. Cartographer_ros has been tested on commit `9401356`, and Cartographer on commit `f8f85b9`.
+* [A-LOAM](https://github.com/larics/A-LOAM) - Advanced LiDAR Odometry And Mapping. Used on branch `devel`, last tested commit `5e8e116`.
